@@ -7,8 +7,10 @@ const Header = () => {
    <>
    <ContainerHeader backGround='rgba(175, 218, 235, 0.233)'>
     <p className='ballon'>WEBNARS EXCLUSIVOS</p>
-    <p className='textUno'>Menos Conversinha,</p>
-    <p className='textDue'>Mais Conversão</p>   
+    <p className='textUno'>Menos Conversinha,</p>        
+    <p className='textDue'>Mais Conversão <img src="/asset-header.png" alt="Logotexto" id='img' /></p>
+    
+   
    </ContainerHeader>
    </>
   )

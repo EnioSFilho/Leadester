@@ -18,4 +18,38 @@
     font-size: 90px;
     color:rgb(43, 116, 212) ;
     font-weight: bold;
+    
 }
+.containerDue{
+    display: flex;
+    flex-direction: row;
+}
+
+#img{
+  display: inline-block;
+  position: absolute;
+  margin-left: -35px;
+  margin-top: 30px;
+  
+}
+
+
+@media (max-width: 768px) {
+    .ballon {
+      font-size: 18px;
+    }
+    
+    .textUno {
+      font-size: 35px;
+      }
+    
+    .textDue {
+      font-size: 50px;
+     
+    }
+    #img {
+      margin-top: 10px;
+    
+      width: 30px;
+  }
+  }
