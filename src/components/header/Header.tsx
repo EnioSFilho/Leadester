@@ -1,12 +1,14 @@
 import React from 'react'
 import { ContainerHeader } from './containerHeader.styled'
+import "./style.css"
 
 const Header = () => {
   return (
    <>
    <ContainerHeader backGround='rgba(175, 218, 235, 0.233)'>
-    <p className={`w-50 h-10  rounded-tl-lg rounded-br-none`}>WEBNARS EXCLUSIVOS</p>
-
+    <p className='ballon'>WEBNARS EXCLUSIVOS</p>
+    <p className='textUno'>Menos Conversinha,</p>
+    <p className='textDue'>Mais Conversão</p>   
    </ContainerHeader>
    </>
   )
