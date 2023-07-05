@@ -18,7 +18,7 @@
     font-size: 90px;
     color:rgb(43, 116, 212) ;
     font-weight: bold;
-    
+   
 }
 .containerDue{
     display: flex;
@@ -32,7 +32,10 @@
   margin-top: 30px;
   
 }
-
+.line{
+  width: 700px;
+  border: 1px solid rgb(196, 202, 209);
+}
 
 @media (max-width: 768px) {
     .ballon {
@@ -44,12 +47,19 @@
       }
     
     .textDue {
+      
       font-size: 50px;
      
     }
     #img {
-      margin-top: 10px;
-    
+      margin-top: 15px;  
+      margin-left: -20px;  
       width: 30px;
+  }
+  .line{
+    width: 380px;
+  }
+  .frase{
+    text-align: center;
   }
   }
