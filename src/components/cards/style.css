@@ -1,0 +1,32 @@
+.links a{
+   
+  
+    border: 1px solid black;
+    margin: 3px;
+    border-radius: 20px;
+    padding: 5px;
+}
+.links a:hover{
+   border-color: rgb(43, 116, 212);
+   background-color: rgb(43, 116, 212);
+   color: white;
+}
+#data{
+    border: 1px solid black;
+    margin: 3px;
+    border-radius: 20px;
+    padding: 5px;
+}
+.pics{
+    margin: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+    margin-top: 50px;
+}
+#teste:hover{
+
+    background-color: aqua;
+
+}

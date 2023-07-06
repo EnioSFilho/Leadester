@@ -1,0 +1,22 @@
+{
+    "itens": [
+      {
+        "id": 1,
+        "nome": "Item 1",
+        "descricao": "Descrição do Item 1",
+        "src": "/thumbnail.png"
+      },
+      {
+        "id": 2,
+        "nome": "Item 2",
+        "descricao": "Descrição do Item 2",
+        "src": "/thumbnail.png"
+      },
+      {
+        "id": 3,
+        "nome": "Item 3",
+        "descricao": "Descrição do Item 3",
+        "src": "/thumbnail.png"
+      }
+    ]
+  }
