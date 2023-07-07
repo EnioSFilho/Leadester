@@ -9,6 +9,13 @@
 .itens{
     display: flex;
 }
+.itens a:hover{
+    border: 1px solid rgb(43, 116, 212);
+    background-color: rgb(43, 116, 212);
+    color: white;
+    transition: 1s;
+
+}
 .links a{
     text-align: center;
     border: 1px solid black;
